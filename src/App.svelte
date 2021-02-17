@@ -1,12 +1,14 @@
 <script>
-  import Feature from './Feature.svelte';
   import Count from './Count.svelte';
+  import Feature from './Feature.svelte';
+  import Image from './Image.svelte';
 </script>
 
 <main>
   <h1>Git Test</h1>
   <Count />
   <Feature />
+  <Image />
 </main>
 
 <style>
