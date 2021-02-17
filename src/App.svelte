@@ -1,4 +1,5 @@
 <script>
+  import Feature from './Feature.svelte';
   let count = 0;
 
   const up = () => (count += 1);
@@ -6,7 +7,10 @@
 
 <main>
   <h1>Git Test</h1>
-  <button on:click={up}>Increase Count ({count})</button>
+  <div>
+    <button on:click={up}>Increase Count ({count})</button>
+  </div>
+  <Feature />
 </main>
 
 <style>
