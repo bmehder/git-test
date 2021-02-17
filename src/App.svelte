@@ -13,9 +13,14 @@
 
 <style>
   main {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
     padding: 1em;
-    max-width: 240px;
+    width: 600px;
+    min-height: 100vh;
     margin: 0 auto;
   }
 
