@@ -1,12 +1,10 @@
 <script>
-  let count = 0;
-
-  const up = () => (count += 1);
+  import Count from './Count.svelte';
 </script>
 
 <main>
   <h1>Git Test</h1>
-  <button on:click={up}>Increase Count ({count})</button>
+  <Count />
 </main>
 
 <style>
